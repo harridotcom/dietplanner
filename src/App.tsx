@@ -5,7 +5,7 @@ import { MealPlanResult } from "./components/MealPlanResult";
 import { generateWeekPlan, SpoonacularError } from "./services/spoonacular";
 import type { DietFormState, PlanBreakdown, SpoonacularWeekResponse } from "./types";
 
-const API_KEY = import.meta.env.VITE_SPOONACULAR_API_KEY;
+const API_KEY = "2dafd89a7a2646feb4013233427da6ca";
 
 function App() {
   const [loading, setLoading] = useState(false);
